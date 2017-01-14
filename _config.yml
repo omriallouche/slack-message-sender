@@ -1,0 +1,5 @@
+name: Slack Message Sender
+markdown: kramdown
+theme: jekyll-theme-architect
+gems:
+  - jekyll-seo-tag
