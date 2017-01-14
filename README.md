@@ -3,7 +3,7 @@ A vanilla Javascript function for easily sending messages to a Slack channel.
 
 It follows [guidelines](https://api.slack.com/incoming-webhooks) from Slack, and allows simple sending to a channel by name, sending object as data, and callback operations using a Promise.
 
-[Demo](https://omriallouche.github.io/SlackMessageSender)
+[Demo](https://omriallouche.github.io/slack-message-sender)
 
 ## Getting started:
   - Include `sendSlackMessage.js`:
