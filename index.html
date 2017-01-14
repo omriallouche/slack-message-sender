@@ -1,21 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>SlackMessageSender</title>
-        <script src="src/sendSlackMessage.js"></script>
-        <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+---
+layout: default
+title: Angular Zendesk Article
+---
 
-    </head>
-    <body>
-        <div class="container">
-            <h1>Send Slack Message</h1>
-            <button onclick="sendString()" class="btn btn-default">Send sample text</button>
-            <button onclick="sendJson()" class="btn btn-default">Send sample JSON</button>
-        </div>
+<!--<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">-->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 
-        <script src="testApp.js"></script>
-    </body>
-</html>
+<script src="src/sendSlackMessage.js"></script>
+
+<div class="container">
+    <h1>Send Slack Message</h1>
+    <button onclick="sendString()" class="btn btn-default">Send sample text</button>
+    <button onclick="sendJson()" class="btn btn-default">Send sample JSON</button>
+</div>
+
+<script src="testApp.js"></script>
